@@ -53,7 +53,7 @@ export default function Generator(props) {
   const [title, setTitle] = useState(['It\'s' , 'Huge', 'o\'clock'])
   
   return (
-    <SectionWrapper header={header} title={title}> 
+    <SectionWrapper id={'generate'} header={header} title={title}> 
 
       <Header index={'01'} title={'Pick your title'} description={'Select the workout'}/>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

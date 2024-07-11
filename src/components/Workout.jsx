@@ -7,7 +7,7 @@ export default function Workout(props) {
   const [header, setHeader] = useState("Welcome to")
   const [title, setTitle] = useState(['The' , 'DANGER', 'Zone'])
   return (
-    <SectionWrapper header={header} title={title}> 
+    <SectionWrapper id={'workout'} header={header} title={title}> 
      <div className='flex flex-col gap-4'>
           {workout.map((exercise, i) => {
               return (
